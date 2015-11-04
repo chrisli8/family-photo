@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- Christopher Li, INFO 343 C, 10/27/15 
+The following is the html for a review page about a photo-->
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Family Photo</title>
+		
+		<link href="img/page-icon.png" type="image/gif" rel="shortcut icon" />
+
+		<!-- jQuery & bootstrap import -->
+		<script src="https://code.jquery.com/jquery.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+		<!-- parse library import -->
+		<script src="//www.parsecdn.com/js/parse-1.6.0.min.js"></script>
+		<!-- my own css link -->
+		<link href="css/main.css" type="text/css" rel="stylesheet" />
+		<!-- raty css and js link -->
+		<link rel="stylesheet" href="css/jquery.raty.css">
+		<script src="jquery.raty.js"></script>
+	</head>
+
+	<body>
+		<!-- the picture, it's description, and it's average rating -->
+		<div class="container">
+			<h1>Picture of Banff</h1>
+			<img id="product" src="img/BanffBackgroundPhotoClear.png" alt="Picture of Mountains" />
+			<span>Average Rating: </span>
+			<div id="picture_rate"></div>
+			<p>
+				This is a picture of the scenery...
+			</p>
+
+			<div id="rating">
+
+			</div>
+		</div>
+
+		<!-- the form that the user fills out as submits to add a review -->
+		<div class="container col-md-4" id="form"> 
+			<h2>Leave a Rating!</h2>
+			<form>
+				<div class="form-group">
+	                <label for="title">Title for Review</label>
+	                <input class="form-control" id="title"></input>
+	            </div>
+	            <div class="form-group">
+	                <label for="review">Review</label>
+	                <textarea class="form-control" id="review" rows="4" value="" placeholder="Enter Your Review..."></textarea>
+	            </div>
+
+	            <div id="rate" class="form-group">
+            	</div>
+	            <button class="btn btn-primary" type="submit">Add Review</button>
+			</form>
+		</div>
+
+		<!-- the list of reviews -->
+		<div id="reviews" class="container col-md-8">
+			<ol>
+			</ol>
+		</div>
+	</body>
+	<script type="text/javascript" src="photo.js"></script>
+</html>

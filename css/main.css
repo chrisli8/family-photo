@@ -1,0 +1,58 @@
+.picture_box {
+	background-image: url("../img/BanffBackgroundPhoto.png");
+	/*background: center;*/
+	background-size: 100%;
+	height: 100px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+#product {
+	width: 100%;
+	/*border-radius: 20%; */
+}
+
+li {
+	padding: 10px;
+	/*margin-top: 10px;*/
+	font-size: 16px;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+li:nth-child(odd) {
+	background-color: #D6D6D6;
+}
+
+li span {
+	font-weight: bold;
+}
+
+ol {
+	padding: 0px;
+	border: solid 2px #E3E5E6;
+}
+
+#reviews {
+	margin-top: 20px;
+}
+
+.side {
+	float: right;
+	margin-left: 10px;
+} 
+
+#reviews text {
+	width: 100px;
+}
+
+#words {
+	clear: right;
+	width: 70%;
+}
+
+
+/*dowload raty files to use the starts
+get font awesome for use*/
