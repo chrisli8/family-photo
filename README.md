@@ -1,4 +1,5 @@
 # family-photo
+http://students.washington.edu/chrisli8/info343/family-photo
 --------------------------
 Hi Joanna,
 I talked to Mike Freeman about turning in this assignment late because a lot was going on last week for me.
